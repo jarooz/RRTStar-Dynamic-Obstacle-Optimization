@@ -30,19 +30,26 @@ This project focuses on enhancing the Rapidly-exploring Random Tree (RRT*) algor
 
 ### Installation
 1. Clone the repository:
+```
 git clone https://github.com/yourusername/RRTStar-Dynamic-Obstacle-Optimization.git
+```
 2. Install the required Python packages:
+```
 pip install numpy matplotlib
+```
 
 ### Running the Demo
 To run a demo of the project, navigate to the project directory and execute:
+```
 python dynamic_path_planning_map1.py
+```
 This will launch a simulation using `map1` as the environment, showcasing the algorithm's ability to navigate around moving obstacles.
 
 ## Usage
 For a simple test run, use the following command:
+```
 python RRT.py
-
+```
 You can modify the simulation parameters within the script files `dynamic_path_planning_map1.py` and `dynamic_path_planning_map2.py` to experiment with different environments or obstacle behaviors.
 
 ## Contributing
